@@ -8,22 +8,68 @@
 .header {
     display: flex;
     flex-direction: column;
-    padding: 0 180px;
+    padding: 0 200px;
+    background-color: #1F2937;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 20px 0;
+    padding: 15px 0;
+}
+
+.left-links {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 25px;
 }
 
-a {
+a, .secondary {
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 120px 0;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+button {
+    width: 110px;
+    padding: 8px 15px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+}
+
+.main-right {
+    flex-shrink: 0;
+    width: 50%;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
 }
