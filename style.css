@@ -73,3 +73,12 @@ button {
     align-items: center;
     background-color: gray;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #E5E7EB;
+}
