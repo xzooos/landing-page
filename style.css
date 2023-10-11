@@ -60,7 +60,7 @@ a, .secondary {
 }
 
 button {
-    width: 110px;
+    width: 120px;
     padding: 8px 15px;
     background-color: #3882F6;
     border: none;
@@ -142,4 +142,36 @@ button {
     font-size: 24px;
     font-weight: 700;
     font-style: normal;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.signup {
+    border: 2px solid #E5E7EB;
+}
+
+.container h3 {
+    color: #E5E7EB;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.container p {
+    color: #E5E7EB;
+    font-size: 18px;
 }
